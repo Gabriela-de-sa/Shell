@@ -1,2 +1,2 @@
 # Shell
-comandos shell
+comandos bash linux
