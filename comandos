@@ -1,0 +1,198 @@
+arquivos
+
+touch nome_arquivo
+  criar arquivo
+
+echo 'mensagem' > nome_arq
+  msg no arquivo
+
+rm arquivo
+  excluir umm arquivo
+  
+
+arquivos com conteudos muito grande
+
+comeco do arquivo
+
+head arquivo
+  traz as 10 primeiras linhas
+
+  parametro = definir o tanto de linhas que quer mostrar
+  
+  head -n (numero_linhas) arquivo
+
+final do arquivo
+taill arquivo
+
+  parametro = taill -n (numero_linhas) arquivo
+
+mostrar todo o conteudo, mas controlando a saida
+
+  lass arquivo
+
+************************************************************************************************
+
+listar arquivos e arquivos ocultos
+
+ls = lista
+
+flags
+
+ls -l : lista as permissoes
+ls -la : arquivos ocultos
+ls -t : coloca os arquivos em ordem por data e hora de acesso em ordem do mais recente para o mais antigo
+ls -m : separa os arquivos por virgula
+ls -p : coloca uma barra (/) no final dos diretorios
+
+
+***********************************************************************************************
+
+diretorio
+
+mkdir nome_diretorio
+  criar um diretorio
+
+rmdir diretorio
+  excluir um diretorio vazio
+
+rm -r diretorio
+  excluir diretorio e arquivos dentro dele
+
+**************************************************************************************************************
+
+mover e copiar
+
+copiar 
+
+cp arquivo arquivo_novo
+  faz uma copia do conteudo para o outro arquivo
+
+mover 
+
+mv arquivo novo_arquivo
+mv arquivo diretorio
+mv diretorio novo_dir
+  move arquivos para outros arquivos ou move para outro diretorio
+
+***************************************************************************************************************8
+
+TAR compactar arquivos e diretorios
+
+* cria um diretorio compactado com extensao
+
+tar -cf nome_arquivo_compactado.tar diretorio_que_vai_ser_compactado
+
+tar -czf nome_arquivo_compactado.tar.gz diretorio_que_vai_ser_compactado
+
+descompactar um diretorio
+
+tar -xf nome_arquivo_compactado.tar
+
+tar -xzf nome_arquivo_compactado.tar.gz
+
+*********************************************************************************************************
+
+manipulacao de data
+
+date --help
+
+-- opcoes para formatar data
+
+ex: date "+%d %m % y"
+
+********************************************************************************************************
+
+Processos que estao rodando na maquina
+
+ps
+
+ps -e = mostra todos os processos
+
+ps -ef mostra mais informacoes na saida
+          
+parar um processo
+  kill
+
+matar um processo
+  kill -9 <numero processo>
+  
+matar todos os processos
+  killall <nome processo>
+    - pode ser executado com o -9
+
+********************************************************************************************************
+
+filtrar linhas
+
+comando | grep <nome para palavrsa do filtro>
+
+ex: cat google.com | grep Gabriela
+    ps | grep PID
+    ls | grep google.txt
+
+*******************************************************************************************************
+Jobs executados em background
+
+comando = jobs
+
+******************************************************************************************************
+
+permissoes de arquivos
+
+r = read
+w = write
+x = execucao
+
+comando chmood = altera as permissoes de arquivos
+
+
+
+***************************************************************************************************
+
+script shell
+
+arquivo onde tem instrucoes para ser executado 
+
+ex: arquivo.txt
+
+mkdir test_sh
+cd test_sh
+touch arq1.txt
+echo 'teste com sh script' > arq1.txt
+ls -l
+cd ..
+tar -cf backup.tar ../novo_dir
+echo "Backup realizado com sucesso"
+
+execucao no bash = sh arquivo.txt
+
+***************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
