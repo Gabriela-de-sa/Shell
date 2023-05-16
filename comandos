@@ -1,6 +1,6 @@
 arquivos
 
-touch nome_arquivo
+touch nome_arquivo 
   criar arquivo
 
 echo 'mensagem' > nome_arq
