@@ -168,9 +168,22 @@ execucao no bash = sh arquivo.txt
 
 ***************************************************************************************************
 
+Comando wc
 
+mostra as linhas, palavras e número de caracteres em um arquivo
 
+-c: Conta o número de caracteres de um ou mais arquivos;
+-l: Conta o número de linhas de um ou mais arquivos;
+-L: Conta o número de caracteres da maior linha do arquivo;
+-w: Conta as palavras de um ou mais arquivos.
 
+****************************************************************************************************
+
+comando find 
+
+ procura por arquivos e diretórios diretamente no sistema de arquivos
+
+Doc: ibm ou certificacao linux
 
 
 
