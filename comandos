@@ -185,10 +185,25 @@ comando find
 
 Doc: ibm ou certificacao linux
 
+******************************************************************************************************
 
+variavel de ambiente
 
+env = listar todas as variaveis
 
+echo $variavel = print no terminal os valores da variavel
 
+criar uma variavel
+  #nome_varaivel=valor_variavel
+
+## ao criar uma variavel de ambiente ela é criada como uma variavel do shell e para exportar para uma variavel de ambiente se usa o comando export
+
+export $nome_variavel=valor
+
+deletar uma variavel
+  unset $nome
+  
+******************************************************************************************************
 
 
 
